@@ -33,3 +33,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+# utils.py
+
+import math # <<-- ¡IMPORTANTE!
+
+# Funciones de Operaciones Básicas
+def sumar(a, b):
+    # ... (código existente)
+
+# ... (otras funciones)
+
+# Función de Raíz Cuadrada (HU-02)
+def raiz_cuadrada(a):
+    if a < 0:
+        return "Error: Raíz de número negativo"
+    return math.sqrt(a)
