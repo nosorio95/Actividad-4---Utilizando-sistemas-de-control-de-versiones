@@ -11,3 +11,8 @@ def dividir(a, b):
     if b == 0:
         return "Error: División por cero"
     return a / b
+
+def raiz_cuadrada(a):
+    if a < 0:
+        return "Error: Raíz de número negativo"
+    return math.sqrt(a)
